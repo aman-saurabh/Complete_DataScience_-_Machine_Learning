@@ -34,6 +34,7 @@ num_cols = ['ApplicantIncome', 'CoapplicantIncome', 'LoanAmount']
 # Replacing numerical missing values with mean :
 dt[num_cols] = dt[num_cols].fillna(dt.mean(numeric_only=True))
 
+# Label encoding steps :
 """
 If you check the datatype for 'Gender', 'Area', 'Loan_Status' you will find it 
 is "object". But for it's conversion into numerical types using pandas we need 
