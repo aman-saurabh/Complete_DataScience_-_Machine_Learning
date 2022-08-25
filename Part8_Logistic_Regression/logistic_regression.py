@@ -81,7 +81,7 @@ loan_prep.dtypes
 """
 print(loan_prep.dtypes);
 """
-Note that "married", "ch" and "status" are categorical column among these
+Note that "married", "ch" and "status" are categorical columns, among these
 "ch" column is of type "float" so we need to convert it into "categorical" type
 but note that it's value is either 0 and 1 only so if we create dummy variable
 for it and drop it's first column then again we will get same value(or exactly
