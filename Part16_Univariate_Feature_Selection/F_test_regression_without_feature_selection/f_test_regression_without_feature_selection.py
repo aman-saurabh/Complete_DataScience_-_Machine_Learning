@@ -2,7 +2,7 @@
 """
 Created on Sat Sep 24 02:18:47 2022
 
-@author: asaur
+@author: Aman Saurabh
 """
 
 # Import libraries
@@ -85,3 +85,10 @@ helps in improving the models performance. Apart from that such models will
 take less time in training also as it has now less features. 
 """
 
+# ********************Important************************
+"""
+You can use Chi-square also in the similar manner for categorical dataset
+ScikitLearn function name for Chi-square is "chi2" and you can import it as 
+follows :
+from sklearn.feature_selection import chi2 
+"""
